@@ -1,0 +1,2 @@
+urdf_gazebo:urdf_simulation
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/benson/projects/rosdemo/urdf_demo/devel -DCMAKE_INSTALL_PREFIX=/home/benson/projects/rosdemo/urdf_demo/install -G Unix Makefiles

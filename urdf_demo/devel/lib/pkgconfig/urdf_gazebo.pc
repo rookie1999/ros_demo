@@ -1,0 +1,8 @@
+prefix=/home/benson/projects/rosdemo/urdf_demo/devel
+
+Name: urdf_gazebo
+Description: Description of urdf_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
