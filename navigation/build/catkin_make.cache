@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/benson/projects/rosdemo/navigation/devel -DCMAKE_INSTALL_PREFIX=/home/benson/projects/rosdemo/navigation/install -G Unix Makefiles
