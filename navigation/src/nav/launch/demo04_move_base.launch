@@ -1,0 +1,15 @@
+<launch>
+    <!-- move_base 功能包提供了基于动作(action)的路径规划实现
+    move_base 可以根据给定的目标点，控制机器人底盘运动至目标位置
+    并且在运动过程中会连续反馈机器人自身的姿态与目标点的状态信息 -->
+    <!-- respawn 为 false，意味着该节点关闭后，不会被重启 -->
+    <!-- clear_params 为 true，意味着每次启动该节点都要清空私有参数然后重新载入 -->
+    <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen" clear_params="true">
+        <rosparam file="$(find nav)/param/costmap_common_params.yaml" command="load" ns="global_costmap" />
+        <rosparam file="$(find nav)/param/costmap_common_params.yaml" command="load" ns="local_costmap" />
+        <rosparam file="$(find nav)/param/local_costmap_params.yaml" command="load" />
+        <rosparam file="$(find nav)/param/global_costmap_params.yaml" command="load" />
+        <rosparam file="$(find nav)/param/base_local_planner_params.yaml" command="load" />
+    </node>
+
+</launch>

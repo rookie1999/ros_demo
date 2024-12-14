@@ -1,0 +1,16 @@
+<!-- 组合小车底盘与摄像头 -->
+<robot name="my_car_camera" xmlns:xacro="http://wiki.ros.org/xacro">
+    <xacro:include filename="demo02_inertial.urdf.xacro" />
+    <xacro:include filename="demo02_base.urdf.xacro" />
+    <xacro:include filename="demo02_camera.urdf.xacro" />
+    <xacro:include filename="demo02_laser.urdf.xacro" />
+
+    <!-- 小车运动控制 -->
+    <xacro:include filename="demo04_control.urdf.xacro" />
+    <!-- 雷达仿真 -->
+    <xacro:include filename="demo04_laser.urdf.xacro" />
+    <!-- 摄像头仿真 -->
+    <xacro:include filename="demo04_camera.urdf.xacro"/>
+    <!-- 深度相机仿真 -->
+    <xacro:include filename="demo04_depth_camera.urdf.xacro"/>
+</robot>

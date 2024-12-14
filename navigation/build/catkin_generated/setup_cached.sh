@@ -7,8 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/benson/projects/rosdemo/navigation/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH='/opt/ros/noetic/lib:/usr/local/cuda-12.0/lib64'
+export PATH='/home/benson/anaconda/envs/ros_demo/bin:/home/benson/anaconda/condabin:/home/benson/anaconda/bin:/usr/local/cuda-12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/ros/noetic/bin:/home/benson/anaconda/bin:/home/benson/anaconda/condabin:/home/benson/anaconda/bin:/usr/local/cuda-12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
 export PWD='/home/benson/projects/rosdemo/navigation/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/benson/projects/rosdemo/navigation/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/benson/projects/rosdemo/navigation/src:$ROS_PACKAGE_PATH"
