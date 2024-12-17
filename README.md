@@ -1,5 +1,6 @@
 > 文档：http://www.autolabor.com.cn/book/ROSTutorials/index.html  <br>
-> 视频：https://www.bilibili.com/video/BV1Ci4y1L7ZZ/
+> 视频：https://www.bilibili.com/video/BV1Ci4y1L7ZZ/ <br>
+> ros一键安装: https://fishros.org.cn/forum/topic/20/%E5%B0%8F%E9%B1%BC%E7%9A%84%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E7%B3%BB%E5%88%97
 
 ROS demo 代码
 
