@@ -1,0 +1,25 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/benson/projects/rosdemo/ros_advance/devel/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/benson/projects/rosdemo/ros_advance/devel/lib/python3/dist-packages"
+    ],
+    "files.associations": {
+        "functional": "cpp",
+        "optional": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "ratio": "cpp",
+        "system_error": "cpp",
+        "array": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "variant": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "cmake.ignoreCMakeListsMissing": true
+}

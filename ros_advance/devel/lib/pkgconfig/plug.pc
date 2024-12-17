@@ -1,0 +1,8 @@
+prefix=/home/benson/projects/rosdemo/ros_advance/devel
+
+Name: plug
+Description: Description of plug
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

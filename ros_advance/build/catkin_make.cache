@@ -1,0 +1,2 @@
+action_communication:demo04_nodelet:dynamic_param:plug
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/benson/projects/rosdemo/ros_advance/devel -DCMAKE_INSTALL_PREFIX=/home/benson/projects/rosdemo/ros_advance/install -G Unix Makefiles

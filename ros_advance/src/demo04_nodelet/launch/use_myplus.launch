@@ -1,0 +1,14 @@
+<launch>
+    <node pkg="nodelet" type="nodelet" name="my" args="manager" output="screen" />
+    <node pkg="nodelet" type="nodelet" name="p1" args="load demo04_nodelet/MyPlus my" output="screen">
+        <param name="value" value="100" />
+    </node>
+    <node pkg="nodelet" type="nodelet" name="p2" args="load demo04_nodelet/MyPlus my" output="screen">
+        <param name="value" value="-50" />
+        <remap from="/p2/in" to="/p1/out" />
+    </node>
+    <!-- 再运行
+    1. rostopic pub -r 1 /p1/in std_msgs/Float64 "data: 1000.0"
+    2. rostopic echo /p2/out
+    输出：data: 770.0 -->
+</launch>

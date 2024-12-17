@@ -1,0 +1,8 @@
+prefix=/home/benson/projects/rosdemo/ros_advance/install
+
+Name: nodelet_demo
+Description: Description of nodelet_demo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

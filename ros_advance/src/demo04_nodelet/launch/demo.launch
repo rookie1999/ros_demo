@@ -1,0 +1,16 @@
+<launch>
+    <!-- 设置nodelet管理器 -->
+    <node pkg="nodelet" type="nodelet" name="mymanager" args="manager" output="screen" />
+    <!-- 启动节点1，名称n1，参数为/n1/value为100 -->
+    <node pkg="nodelet" type="nodelet" name="n1" args="load nodelet_tutorial_math/Plus mymanager" output="screen">
+        <param name="value" value="100"/>
+    </node>
+    <node pkg="nodelet" type="nodelet" name="n2" args="load nodelet_tutorial_math/Plus mymanager" output="screen">
+        <param name="value" value="-330"/>
+        <remap from="/n2/in" to="/n1/out"/>
+    </node>
+    <!-- 再运行
+    1. rostopic pub -r 1 /n1/in std_msgs/Float64 "data: 1000.0"
+    2. rostopic echo /n2/out
+    输出：data: 770.0 -->
+</launch>
