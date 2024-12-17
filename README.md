@@ -96,4 +96,9 @@ ROS demo 代码
                     demo04_depth_camera.urdf.xacro
                     demo04_laser.urdf.xacro
                     demo06_car.urdf.xacro
+    -- ros_advance              对应第十章
+        -- action_communication     action通信
+        -- dynamic_param            动态参数
+        -- plug                     pluginlib案例
+        -- demo04_nodelet           nodelet案例和实现
 ```
